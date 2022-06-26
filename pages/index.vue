@@ -24,7 +24,7 @@
         class="font-exo text-xl opacity-0"
         style="transform: translateY(30px)"
       >
-        Every line of code used to make this website speaks my story...
+        Are You Ready For The Journey Through the 🌟Stars🌟 To Know More About Me❓
       </p>
       <a
         id="viewWorkBtn"
@@ -44,7 +44,7 @@
         "
         style="transform: translateY(30px)"
       >
-        Let's View My Work 👆
+        🧑‍🚀Ignite🔥 & 🚀Launch👆
       </a>
     </div>
   </div>
@@ -80,7 +80,7 @@ export default {
     const world = {
       plane: {
         width: 400,
-        height: 400,
+        height: 125,
         widthSegments: 50,
         heightSegments: 50,
       },
@@ -135,10 +135,10 @@ export default {
     const raycaster = new Raycaster();
     const scene = new Scene();
     const camera = new PerspectiveCamera(
-      75,
+      130,
       innerWidth / innerHeight,
-      0.1,
-      1000
+      10,
+      1000000000000000
     );
     const renderer = new WebGLRenderer({
       canvas: this.$refs.canvas,
