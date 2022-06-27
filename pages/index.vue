@@ -28,7 +28,7 @@
       </p>
       <a
         id="viewWorkBtn"
-        href="https://github.com/d5d0ds/"
+        href="https://d5d0ds.github.io/pwv1/"
         class="
           border
           px-4
@@ -344,7 +344,7 @@ export default {
         delay: 2,
         onComplete: () => {
           // this.$router.push("/work");  //Replaced this line with below line for GitHub redirect.
-          location.assign("https://github.com/D5D0Ds");
+          location.assign("https://d5d0ds.github.io/pwv1");
         },
       });
     });
