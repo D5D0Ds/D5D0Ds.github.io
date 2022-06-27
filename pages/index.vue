@@ -28,7 +28,7 @@
       </p>
       <a
         id="viewWorkBtn"
-        href="https://d5d0ds.github.io/pwv1/"
+        href="https://pwv1.vercel.app/"
         class="
           border
           px-4
@@ -344,7 +344,7 @@ export default {
         delay: 2,
         onComplete: () => {
           // this.$router.push("/work");  //Replaced this line with below line for GitHub redirect.
-          location.assign("https://d5d0ds.github.io/pwv1");
+          location.assign("https://pwv1.vercel.app/");
         },
       });
     });
